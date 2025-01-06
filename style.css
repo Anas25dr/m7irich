@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: #936363;
+    color: rgba(225, 237, 230, 0.756);
+    padding: 1em 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header ul li {
+    margin: 0 10px;
+  }
+  
+  header ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 2em;
+    background: #f4f4f4;
+  }
+  
+  #hero input {
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  .grid {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .grid .category, .grid .product {
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ddd;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1em 0;
+  }
+  /* To center the container on the page */
+.search-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center;    /* Centers the content vertically (if needed) */
+  margin: 0 auto;         /* Ensures it's centered in the parent container */
+  padding: 10px;
+  width: 100%;            /* Adjust the width as needed */
+}
+
+/* Styling the input field */
+.search-bar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px; /* Adjust as per your design */
+}
+
+/* Styling the search button */
+.search-button {
+  padding: 10px 20px;
+  margin-left: 5px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+
