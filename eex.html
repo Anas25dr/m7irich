@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ESSAKHI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-indigo-600">CharafEddine</h1>
+      <nav class="space-x-4 hidden sm:block">
+        <a href="#clothing" class="hover:text-indigo-600">Clothing</a>
+        <a href="#household" class="hover:text-indigo-600">Household</a>
+      </nav>
+      <button class="relative">
+        🛒
+        <span class="absolute top-0 right-0 inline-block w-4 h-4 bg-red-500 text-white text-xs rounded-full text-center">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-indigo-100 py-16 text-center">
+    <h2 class="text-4xl font-bold mb-4">Shop Stylish & Practical</h2>
+    <p class="text-lg text-gray-700 mb-6">Modern clothes and essential home items, all in one place.</p>
+    <a href="#clothing" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-500">Shop Now</a>
+  </section>
+
+  <!-- Clothing Section -->
+  <section id="clothing" class="py-10 px-4 max-w-7xl mx-auto">
+    <h3 class="text-2xl font-semibold mb-6">Clothing</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://via.placeholder.com/300x200" alt="Shirt" class="mb-2 rounded">
+        <h4 class="font-bold">Casual T-Shirt</h4>
+        <p class="text-gray-600">$19.99</p>
+        <button class="mt-2 bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600">Add to Cart</button>
+      </div>
+      <!-- Repeat with more clothing items -->
+    </div>
+  </section>
+
+  <!-- Household Items Section -->
+  <section id="household" class="py-10 px-4 max-w-7xl mx-auto">
+    <h3 class="text-2xl font-semibold mb-6">Household Items</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://via.placeholder.com/300x200" alt="Lamp" class="mb-2 rounded">
+        <h4 class="font-bold">Table Lamp</h4>
+        <p class="text-gray-600">$29.99</p>
+        <button class="mt-2 bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600">Add to Cart</button>
+      </div>
+      <!-- Repeat with more household items -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center py-6 mt-10">
+    <p class="text-gray-600">© 2025 TimoStyle. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
