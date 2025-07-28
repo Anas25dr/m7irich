@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>my trial web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+            .cool-box {
+            background: rgba(255,255,255,0.85);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            padding: 40px 60px;
+            text-align: center;
+            transition: transform 0.2s;
+            }
+            .cool-box:hover {
+            transform: scale(1.05) rotate(-2deg);
+            }
+            h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #007cf0;
+            }
+            p {
+            font-size: 1.2rem;
+            margin-top: 0;
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const box = document.createElement('div');
+            box.className = 'cool-box';
+            box.innerHTML = '<h1>Welcome to My Cool Web!</h1><p>Enjoy this stylish gradient and interactive box.</p>';
+            document.body.appendChild(box);
+            });
+        </script>
+    </head>
+</html>
